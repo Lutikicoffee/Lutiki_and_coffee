@@ -17,5 +17,11 @@ def admin():
     else:
         return "Unauthorized", 401
 
+
+@app.route('/send_feedback', methods=['POST'])
+def send_feedback():
+    # TODO: Как нибудь доделаю
+
+
 if __name__ == "__main__":
     app.run()
